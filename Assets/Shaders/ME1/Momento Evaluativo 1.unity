@@ -252,6 +252,7 @@ GameObject:
   - component: {fileID: 638672848}
   - component: {fileID: 638672847}
   - component: {fileID: 638672846}
+  - component: {fileID: 638672850}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -303,7 +304,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: dc0a93311e833eb4a9c3725860dafb24, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -348,6 +349,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &638672850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638672845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f286dfc66bcfd4bab51375cdb11636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 638672849}
+  colliderRadius: 0.5
 --- !u!1 &1111743873
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,7 +465,7 @@ Transform:
   m_GameObject: {fileID: 1111743873}
   serializedVersion: 2
   m_LocalRotation: {x: 0.35355338, y: -0.35355338, z: 0.1464466, w: 0.8535535}
-  m_LocalPosition: {x: -3, y: 0.125, z: -2.3}
+  m_LocalPosition: {x: -1.67, y: 0.13, z: -0.97}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -612,7 +627,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 83b3ff587936fd243ae98538aec402f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
