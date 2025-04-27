@@ -53,12 +53,14 @@ Material:
     m_Floats:
     - _Amount: 1
     - _Cut_Off: 2
+    - _Fresnel_Power: 2.5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Refraction_Strenght: 0.1
     m_Colors:
     - _Border_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0, g: 1, b: 1, a: 0}
+    - _Fresnel_Color: {r: 0, g: 0.4750589, b: 0.5372549, a: 0}
     - _Scale: {r: 100, g: 100, b: 0, a: 0}
     - _Speed: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
